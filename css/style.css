@@ -1,0 +1,136 @@
+*{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,p{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding-left: 0px;
+	margin: 0px ;
+}
+ul li{
+	list-style: none;
+}
+.no-padding{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+/*header section css start*/
+.header-section{
+	width: 100%;
+	background: url(../images/header-bg.png) left center no-repeat;
+	background-size: cover;
+}
+.header-section .navbar-brand img{
+	width: 100%;
+}
+.header-section .bg-light {
+    background-color: transparent!important;
+}
+.header-section .navbar-collapse {
+    padding: 95px 0px 0px 0px;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0px 25px;
+    margin-top: 30px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #ffc901;
+	cursor: pointer;
+	transition: .3s linear;
+}
+.header-section .header-inner {
+    width: 100%;
+    text-align: right;
+    padding: 372px 0px 85px 0px;
+}
+.header-section .header-inner h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 600;
+}
+.header-section .header-inner h2 {
+    color: #ffc901;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 70px;
+}
+.header-section .header-inner h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 400;
+    padding-top: 150px;
+}
+.header-section .header-inner span{
+    color: #ffc901;
+}
+/*header section css end*/
+/*about section css start*/
+.about-section{
+    width: 100%;
+    background: url(../images/about-bg.png) left center no-repeat;
+    background-size: cover;
+}
+.about-section .about-inner {
+    width: 100%;
+    padding: 95px 0px 95px 0px;
+}
+.about-section .about-inner h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+}
+.about-section .about-inner .about-logo {
+    margin: 0px 8px;
+}
+.about-section .about-inner .logo-text {
+    width: 14%;
+}
+.about-section .about-inner p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 70px 0px;
+}
+.about-section .about-inner h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+.about-section .about-inner span{
+    color: #ffc901;
+}
+/*about section css ebd*/
+
+
+
+
+
+
+
+
+
+
+
+
+
