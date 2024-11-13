@@ -121,8 +121,70 @@ ul li{
     color: #ffc901;
 }
 /*about section css ebd*/
-
-
+/*Our Food Quality section css start*/
+.food-quality-section{
+    width: 100%;
+    background: url(../images/food-quality-bg.png) left center no-repeat;
+    background-size: cover;
+}
+.food-quality-section .food-quality-inner {
+    width: 100%;
+    text-align: center;
+    padding: 170px 0px 208px 0px;
+}
+.food-quality-section .food-quality-inner h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+}
+.food-quality-section .food-quality-inner p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 40px 0px;
+}
+.food-quality-section .food-quality-inner h3 {
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.food-quality-section .food-quality-inner h4 {
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.food-quality-section .food-quality-inner h5 {
+    color: #ffc901;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/*Our Food Quality section css end*/
+/*Gallery section css start*/
+.gallery-section {
+    width: 100%;
+    background: #040503;
+    padding-bottom: 45px;
+}
+.gallery-section .gallery-tilte{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.gallery-section .gallery-tilte h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+}
+/*Gallery section css end*/
 
 
 
