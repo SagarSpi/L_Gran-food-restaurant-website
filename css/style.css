@@ -185,10 +185,198 @@ ul li{
     font-weight: 500;
 }
 /*Gallery section css end*/
-
-
-
-
+/*Book Now section css start*/
+.book-now-section {
+    width: 100%;
+    background: #1c1c1c;
+    padding: 85px 0px 85px 0px;
+}
+.book-now-section .book-now-title {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.book-now-section .book-now-title h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+}
+.book-now-section .book-now-title p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    padding-top: 30px;
+}
+.book-now-section .book-now-inner{
+    width: 100%;
+}
+.book-now-section .book-now-inner label {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 50px 0px 5px 0px;
+}
+.book-now-section .book-now-inner input::placeholder{
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+}
+.book-now-section .book-now-inner input{
+    background: transparent;
+    border: 1px solid #ffc901;
+    color: #fff;
+}
+.book-now-section .book-now-inner .input-group input{
+    background: transparent;
+    border: 1px solid #ffc901;
+    border-right: none;
+}
+.book-now-section .book-now-inner span i{
+    color: #ffc901;
+    background: transparent;
+}
+.book-now-section .book-now-inner span{
+    background: transparent;
+    border: 1px solid #ffc901;
+    border-left: none;
+}
+.book-now-section .book-now-btn {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+.book-now-section .book-now-btn a {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 1px 62px;
+    font-weight: 400;
+    background: #ffc901;
+}
+.book-now-section .book-now-btn a:hover{
+    cursor: pointer;
+    transition: .3s linear;
+    background: #000000;
+    color: #ffc901;
+}
+/*Book Now section css end*/
+/*blank bg section css start*/
+.blank-bg-section {
+    width: 100%;
+    background: url(../images/blank-bg.png) left center no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+/*blank bg section css end*/
+/*Linda Steward section css start*/
+.linda-section{
+    width: 100%;
+    background: url(../images/linda-bg.png) left center no-repeat;
+    background-size: cover;
+}
+.linda-section .linda-inner {
+    width: 100%;
+    text-align: center;
+    padding: 70px 0px 70px 0px;
+}
+.linda-section .linda-inner h2 {
+    color: #ffc901;
+    font-size: 81px;
+    line-height: 20px;
+}
+.linda-section .linda-inner p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.linda-section .linda-inner h3 {
+    color: #ffc901;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+}
+/*Linda Steward section css end*/
+/*Best Meal section css start*/
+.best-meal-section{
+    width: 100%;
+    background: url(../images/best-meal-bg.png) left center no-repeat;
+    background-size: cover;
+}
+.best-meal-section .best-meal-inner {
+    width: 100%;
+    text-align: center;
+    padding: 115px 0px 105px 0px;
+}
+.best-meal-section .best-meal-inner h2 {
+    color: #ffc901;
+    font-size: 34px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.best-meal-section .best-meal-inner p {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 33px;
+    padding-bottom: 25px;
+}
+.best-meal-section .best-meal-inner h3 {
+    color: #ffc901;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.best-meal-section .bdr {
+    border-color: #ffc901;
+    border-style: dotted;
+    border-block-start-width: inherit;
+}
+/*Best Meal section css end*/
+/*footer section css start*/
+.footer-section{
+    width: 100%;
+    background: #1c1c1c;
+}
+.footer-section .footer-inner {
+    width: 100%;
+    text-align: center;
+    padding: 80px 0px;
+}
+.footer-section .footer-inner .footer-text{
+    width: 100%;
+    padding: 30px 0px;
+}
+.footer-section .footer-inner .footer-text ul li {
+    display: inline;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0px 20px;
+    font-weight: 300;
+}
+.footer-section .footer-inner .footer-icon ul li{
+    display: inline;
+}
+.footer-section .footer-inner .footer-icon ul li a i {
+    color: #1c1c1c;
+    background: #fff;
+    font-size: 18px;
+    padding: 7px 9px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin: 0px 4px;
+}
+.footer-section .footer-inner .footer-icon ul li a i:hover {
+    color: #4109ec;
+    background: #ffc901;
+    border: 1px solid #ffc901;
+    cursor: pointer;
+    transition: .3s linear;
+}
+/*footer section css end*/
 
 
 
