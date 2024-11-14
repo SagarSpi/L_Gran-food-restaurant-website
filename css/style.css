@@ -71,7 +71,7 @@ ul li{
     font-weight: 600;
     margin-bottom: 30px;
 }
-.banner-section .banner-inner a {
+.banner-section .banner-inner .learn-btn {
     color: #ffc901;
     font-size: 23px;
     text-transform: uppercase;
@@ -79,8 +79,9 @@ ul li{
     padding: 10px 20px;
     margin-bottom: 35px;
     transition: .3s all;
+    border-radius: 10px;
 }
-.banner-section .banner-inner a:hover{
+.banner-section .banner-inner .learn-btn:hover{
     background: #ffc901;
     color: black;
 }
@@ -94,8 +95,12 @@ ul li{
     font-weight: 400;
     padding-top: 97px;
 }
-.banner-section .banner-inner span{
+.banner-section .banner-inner a{
     color: #ffc901;
+    transition: .3s all;
+}
+.banner-section .banner-inner a:hover{
+    color: #2dc3ff;
 }
 /*banner section css end*/
 /*about section css start*/
@@ -132,8 +137,12 @@ ul li{
     font-size: 24px;
     font-weight: 400;
 }
-.about-section .about-inner span{
+.about-section .about-inner a{
     color: #ffc901;
+    transition: .3s all;
+}
+.about-section .about-inner a:hover{
+    color: #2dc3ff;
 }
 /*about section css ebd*/
 /*Our Food Quality section css start*/
@@ -174,12 +183,16 @@ ul li{
     letter-spacing: 1px;
     font-weight: 400;
 }
-.food-quality-section .food-quality-inner h5 {
+.food-quality-section .food-quality-inner a {
     color: #ffc901;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
+    transition: .3s all;
+}
+.food-quality-section .food-quality-inner a:hover{
+    color: #2dc3ff;
 }
 /*Our Food Quality section css end*/
 /*Gallery section css start*/
