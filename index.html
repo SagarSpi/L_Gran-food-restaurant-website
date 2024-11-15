@@ -5,6 +5,7 @@
 		<!-- Required meta tags -->
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 	    <!-- Google fonts cdn file -->
 	    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<!-- bootstrap css file -->
@@ -159,15 +160,14 @@
 							<label>Your full name ?</label>
 							<input type="text" placeholder="Write your name here..." class="form-control" name="">
 							<label>How many people ?</label>
-							<div class="input-group">
-								<input type="text" class="form-control" placeholder="2 people" aria-label="Recipient's username" aria-describedby="basic-addon2">
-								<span class="input-group-text" id="basic-addon2"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
-							</div>
+							<select class="form-select" aria-label="Default select example">
+							  <option selected>Open this select people</option>
+							  <option value="1">One</option>
+							  <option value="2">Two</option>
+							  <option value="3">Three</option>
+							</select>
 							<label>What is the date ?</label>
-							<div class="input-group">
-								<input type="text" class="form-control" placeholder="01 / 15 / 2020" aria-label="Recipient's username" aria-describedby="basic-addon2">
-								<span class="input-group-text" id="basic-addon2"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
-							</div>
+							<input type="date" name="" class="form-control" placeholder="01 / 15 / 2020" >
 						</div>
 					</div>
 					<div class="col-4 offset-2">
@@ -180,7 +180,7 @@
 								<span class="input-group-text" id="basic-addon2"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
 							</div>
 							<label>Your phone number ?</label>
-							<input type="number" placeholder="Write your number here..." class="form-control" name="">
+							<input type="text" placeholder="Write your number here..." class="form-control" name="">
 						</div>
 					</div>
 				</div>
@@ -222,7 +222,7 @@
 						<div class="best-meal-inner">
 							<h2>Enjoy Our Best Meal</h2>
 							<p>Lorem ipsum dolor sit amet, cosectetur adi<br>piscing elit, sed do eiusmod tempor incididunt<br> ut labore etdolore magna sed do eiusmod<br> tempor incididunt ut labore etdolore</p>
-							<h3>CONTACT US NOW</h3>
+							<a href="#">CONTACT US NOW</a>
 						</div>
 					</div>
 				</div>

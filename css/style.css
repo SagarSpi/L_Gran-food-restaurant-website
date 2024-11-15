@@ -256,6 +256,11 @@ ul li{
     border: 1px solid #ffc901;
     color: #fff;
 }
+.book-now-section .book-now-inner select{
+    background: #1c1c1c;
+    border: 1px solid #ffc901;
+    color: #fff;
+}
 .book-now-section .book-now-inner .input-group input{
     background: transparent;
     border: 1px solid #ffc901;
@@ -351,11 +356,15 @@ ul li{
     line-height: 33px;
     padding-bottom: 25px;
 }
-.best-meal-section .best-meal-inner h3 {
+.best-meal-section .best-meal-inner a {
     color: #ffc901;
     font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
+    transition: .3s all;
+}
+.best-meal-section .best-meal-inner a:hover{
+    color: #2dc3ff;
 }
 .best-meal-section .bdr {
     border-color: #ffc901;
