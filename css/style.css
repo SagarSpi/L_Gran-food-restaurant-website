@@ -57,7 +57,7 @@ ul li{
     background: url(../images/header-bg.png) left bottom no-repeat;
     background-size: cover;
     height: 100vh;
-    padding-top: 127px;
+    padding-top: 6px;
 }
 .banner-section .banner-inner {
     width: 100%;
