@@ -394,6 +394,11 @@ ul li{
     padding: 0px 20px;
     font-weight: 300;
 }
+.footer-section .footer-inner .footer-text ul li:hover{
+    color: #ffc901;
+    cursor: pointer;
+    transition: .3s linear;
+}
 .footer-section .footer-inner .footer-icon ul li{
     display: inline;
 }
